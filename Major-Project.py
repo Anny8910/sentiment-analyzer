@@ -10,7 +10,7 @@ from sklearn.linear_model import LogisticRegression
 
 def user_input():
   Review = st.text_input('Enter Your Review here')
-  data = {'Sentiment':Review}
+  data= {'Sentiment':Review}
   features = pd.DataFrame(data,index=[0])
   return features
 
