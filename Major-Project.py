@@ -29,4 +29,4 @@ text_model = Pipeline([('tfidf',TfidfVectorizer(min_df = 5, ngram_range = (1,2))
 text_model.fit(x,y)
 y_pred = text_model.predict(dframe)
 
-st.write([y_pred])
+st.write([y_pred]) 
